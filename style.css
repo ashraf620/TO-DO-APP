@@ -1,0 +1,52 @@
+
+
+
+
+body{
+    font-family:Arial;
+    border:1px solid black;
+    border-radius: 5px;
+    width:500px;
+    height:auto;
+    position:absolute;
+    left:50%;
+    top:30%;
+    transform:translate(-50%,-30%);
+    padding:10px;
+
+    
+}
+#main-head{
+    text-align: center;
+
+}
+.input{
+    display:grid;
+    grid-template-columns: 200px 150px 100px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-top:10px;
+    align-items: center;
+
+}
+#todomsg ,#tododate{
+    font-size: 15px;
+    padding: 10px 5px;
+}
+.btn1{
+
+}
+.btn-del{
+    background-color: rgb(161, 24, 24);
+    color:white;
+    border-radius: 5px;
+    padding:10px;
+    cursor: pointer;
+}
+.btn1{
+    background-color:green;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding:10px;
+}
